@@ -16,8 +16,8 @@ let charadex = {};
 /* ==================================================================== */
 charadex.site = {
   title: "Charadex",
-  url: "https://Keymera.github.io/charadex-v1.0/",
-  description: `Welcome, dearest Lockmasters! Welcome to the world of Keymera!`
+  url: "https://charadex-team.github.io/charadex-v1.0/",
+  description: `A tool for organizing small ARPGs and species.`
 }
 
 /* ==================================================================== */
