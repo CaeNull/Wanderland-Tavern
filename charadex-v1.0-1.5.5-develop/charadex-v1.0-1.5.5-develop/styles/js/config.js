@@ -16,7 +16,7 @@ let charadex = {};
 /* ==================================================================== */
 charadex.site = {
   title: "Keymera| Masterlist",
-  url: "https://caenull.github.io./motherof-starsand-keys/",
+  url: "https://charadex-team.github.io/charadex-v1.0/",
   description: `Welcome, dearest Lockmasters! Welcome to the world of Keymera!`
 }
 
