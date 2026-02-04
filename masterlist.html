@@ -204,10 +204,46 @@
           <div class="text-muted">(#<span class="id"></span>)</div>
         </div>
 
-        <!-- Image -->
-        <div class="cd-profile-image-container p-md-5 p-4 text-center" >
-          <img class="image img-fluid" src="">
+        <!-- FORM Tabs
+        <!-- ----------------------------------------------------------- -->
+        <hr class="my-0">
+        <ul class="nav row n-gutters m-n1 py-4 px-md-5 px-4" id="main-tabs" role="tablist">
+          <li class="col p-1 nav-item" role="presentation">
+            <a class="w-100 btn btn-primary active" id="main-tab" data-toggle="tab" href="#main" 
+            aria-controls="main" aria-selected="true">Main Form</a>
+          </li>
+          <li class="col p-1 nav-item" role="presentation">
+            <a class="w-100 btn btn-primary" id="awakened-tab" data-toggle="tab" href="#awakened" aria-controls="awakened" 
+            aria-selected="false">Awakened Form</a>
+          </li>
+        </ul>
+        <hr class="my-0">
+
+        
+        <!-- Main Image-->
+        <div class="p-md-5 p-4 tab-content">
+        
+<div class="tab-pane fade active show" id="main" role="tabpanel" aria-labelledby="main-tab" tabindex="0">
+            <h4 class="text-primary"></h4>
+          <!-- Image -->
+  <div class="card-body cd-gallery-card d-flex flex-fill">
+          <img class="image img-fluid m-auto" src="" >
         </div>
+            </div>
+
+           
+        <!-- Awakened Image-->
+        
+<div class="tab-pane fade active show" id="awakened" role="tabpanel" aria-labelledby="awakened-tab" tabindex="0">
+            <h4 class="text-primary"></h4>
+          <!-- Image -->
+  <div class="card-body cd-gallery-card d-flex flex-fill">
+          <img class="image2 img-fluid m-auto" src="" >
+        </div>
+            </div>
+
+  </div>
+
 
 
         <!-- Nav Tabs
