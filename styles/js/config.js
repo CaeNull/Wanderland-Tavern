@@ -16,7 +16,7 @@ let charadex = {};
 /* ==================================================================== */
 charadex.site = {
   title: "Charadex",
-  url: "https://charadex-team.github.io/charadex-v1.0/",
+  url: "https://caenull.github.io/Wanderland-Tavern/",
   description: `A tool for organizing small ARPGs and species.`
 }
 
