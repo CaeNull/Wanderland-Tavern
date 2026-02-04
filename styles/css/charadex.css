@@ -28,7 +28,7 @@ body {
   /* Backgrounds
   ================================================================ */
   --cd-body-background-color: #f8f8f8;
-  --cd-content-background-color: #ffffff ;
+  --cd-content-background-color: #456285 ;
   --cd-faded-background-color: #f8f8f8;
 
   /* Background Extras */
@@ -38,7 +38,7 @@ body {
   /* Text
   ================================================================ */
   --cd-body-text-color: #303030;
-  --cd-faded-text-color: #575757;
+  --cd-faded-text-color: #8db6c4;
 
   /* ============================================================= */
   /* Borders
