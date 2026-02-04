@@ -28,7 +28,7 @@ body {
   /* Backgrounds
   ================================================================ */
   --cd-body-background-color: #f8f8f8;
-  --cd-content-background-color: #232937;
+  --cd-content-background-color: rgba(35, 41, 55, 0.82) ;
   --cd-faded-background-color: #f8f8f8;
 
   /* Background Extras */
