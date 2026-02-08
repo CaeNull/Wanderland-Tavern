@@ -69,18 +69,18 @@ body {
   /* Rarities
   ================================================================ */
 
-  --cd-rarity-common-bg: #73f1ff;
-  --cd-rarity-common-txt: #fcf4ed;
+  --cd-rarity-newfound-bg: #73f1ff;
+  --cd-rarity-newfound-txt: #fcf4ed;
 
   --cd-rarity-uncommon-bg: #ffa6e3;
-  --cd-rarity-uncommon-txt: var(--cd-rarity-common-txt);
+  --cd-rarity-uncommon-txt: var(--cd-rarity-newfound-txt);
   
   --cd-rarity-rare-bg: #ec4f56;
-  --cd-rarity-rare-txt: var(--cd-rarity-common-txt);
+  --cd-rarity-rare-txt: var(--cd-rarity-newfound-txt);
 
   /* Legendary & Mythic */
   --cd-rarity-legendary-bg: #eb8648;
-  --cd-rarity-legendary-txt: var(--cd-rarity-common-txt);
+  --cd-rarity-legendary-txt: var(--cd-rarity-newfound-txt);
 
 
   /* ============================================================= */
