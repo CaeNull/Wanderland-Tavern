@@ -69,18 +69,18 @@ body {
   /* Rarities
   ================================================================ */
 
-  --cd-rarity-newfound-bg: #73f1ff;
-  --cd-rarity-newfound-txt: #fcf4ed;
+  --cd-rarity-common-bg: #73f1ff;
+  --cd-rarity-common-txt: #fcf4ed;
 
   --cd-rarity-uncommon-bg: #ffa6e3;
-  --cd-rarity-uncommon-txt: var(--cd-rarity-newfound-txt);
+  --cd-rarity-uncommon-txt: var(--cd-rarity-common-txt);
   
   --cd-rarity-rare-bg: #ec4f56;
-  --cd-rarity-rare-txt: var(--cd-rarity-newfound-txt);
+  --cd-rarity-rare-txt: var(--cd-rarity-common-txt);
 
   /* Legendary & Mythic */
   --cd-rarity-legendary-bg: #eb8648;
-  --cd-rarity-legendary-txt: var(--cd-rarity-newfound-txt);
+  --cd-rarity-legendary-txt: var(--cd-rarity-common-txt);
 
 
   /* ============================================================= */
@@ -746,27 +746,23 @@ p:last-child {
 /* Rarity
 /* ============================================================= */
 
-.badge-common {
+.badge-newfound {
   background-color: var(--cd-rarity-common-bg);
   color: var(--cd-rarity-common-txt);
 }
 
-.badge-uncommon {
+.badge-cherished {
   background-color: var(--cd-rarity-uncommon-bg);
   color: var(--cd-rarity-uncommon-txt);
 }
 
-.badge-rare {
+.badge-treasured {
   background-color: var(--cd-rarity-rare-bg);
   color: var(--cd-rarity-rare-txt);
 }
 
-.badge-veryrare {
-  background-color: var(--cd-rarity-veryrare-bg);
-  color: var(--cd-rarity-veryrare-txt);
-}
 
-.badge-legendary,
+.badge-irreplaceable,
 .badge-mythic {
   background-color: var(--cd-rarity-legendary-bg);
   color: var(--cd-rarity-legendary-txt);
