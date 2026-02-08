@@ -746,23 +746,27 @@ p:last-child {
 /* Rarity
 /* ============================================================= */
 
-.badge-newfound {
+.badge-common {
   background-color: var(--cd-rarity-common-bg);
   color: var(--cd-rarity-common-txt);
 }
 
-.badge-cherished {
+.badge-uncommon {
   background-color: var(--cd-rarity-uncommon-bg);
   color: var(--cd-rarity-uncommon-txt);
 }
 
-.badge-treasured {
+.badge-rare {
   background-color: var(--cd-rarity-rare-bg);
   color: var(--cd-rarity-rare-txt);
 }
 
+.badge-veryrare {
+  background-color: var(--cd-rarity-veryrare-bg);
+  color: var(--cd-rarity-veryrare-txt);
+}
 
-.badge-irreplaceable,
+.badge-legendary,
 .badge-mythic {
   background-color: var(--cd-rarity-legendary-bg);
   color: var(--cd-rarity-legendary-txt);
