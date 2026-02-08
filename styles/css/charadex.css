@@ -78,9 +78,6 @@ body {
   --cd-rarity-rare-bg: #ec4f56;
   --cd-rarity-rare-txt: var(--cd-rarity-common-txt);
 
-  --cd-rarity-veryrare-bg: #548b71;
-  --cd-rarity-veryrare-txt: var(--cd-rarity-common-txt);
-
   /* Legendary & Mythic */
   --cd-rarity-legendary-bg: #eb8648;
   --cd-rarity-legendary-txt: var(--cd-rarity-common-txt);
