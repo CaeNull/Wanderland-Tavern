@@ -796,8 +796,8 @@ p:last-child {
 /* ============================================================= */
 
 .badge-abyssos {
-  background-color: var(--cd-rarity-abysso-bg);
-  color: var(--cd-rarity-abysso-txt);
+  background-color: var(--cd-rarity-abyssos-bg);
+  color: var(--cd-rarity-abyssos-txt);
 }
 
 .badge-chronos {
@@ -807,7 +807,7 @@ p:last-child {
 
 .badge-stellios {
   background-color: var(--cd-rarity-stellios-bg);
-  color: var(--cd-rarity-stellio-txt);
+  color: var(--cd-rarity-stellios-txt);
 }
 
 .badge-elemos {
