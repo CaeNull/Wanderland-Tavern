@@ -47,7 +47,8 @@ charadex.sheet = {
     rarity: ['All', 'Newfound', 'Cherished', 'Treasured', 'Irreplaceable'],
     species: ['All', 'Dog', 'Cat', 'Bunny'],
     itemTypes: ['All', 'Currency', 'Trait', 'Misc'],
-    traitTypes: ['All', 'Keys', 'Body', 'Limbs', 'Misc']
+    traitTypes: ['All', 'Keys', 'Body', 'Limbs', 'Misc'],
+    facets: ['All', 'Abyssos', 'Chronos', 'Stellios', 'Elemos', 'Standard']
 
   }
 
@@ -136,6 +137,7 @@ charadex.page.traits = {
     parameters: {
       'Type': charadex.sheet.options.traitTypes,
       'Rarity': charadex.sheet.options.rarity,
+      'Facets': charadex.sheet.options.facets
     }
   },
 
@@ -148,7 +150,7 @@ charadex.page.traits = {
   search: {
     toggle: true,
     filterToggle: true,
-    parameters: ['All', 'Trait', 'Rarity']
+    parameters: ['All', 'Trait', 'Rarity', 'Facets']
   },
 
   prevNext: {
