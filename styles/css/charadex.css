@@ -82,6 +82,25 @@ body {
   --cd-rarity-irreplaceable-bg: #eb8648;
   --cd-rarity-irreplaceable-txt: var(--cd-rarity-newfound-txt);
 
+    /* ============================================================= */
+  /* Facets
+  ================================================================ */
+
+  --cd-rarity-abyssos-bg: #73f1ff;
+  --cd-rarity-abyssos-txt: #fcf4ed;
+
+  --cd-rarity-chronos-bg: #ffa6e3;
+  --cd-rarity-chronos-txt: var(--cd-rarity-abyssos-txt);
+  
+  --cd-rarity-stellios-bg: #ec4f56;
+  --cd-rarity-stellios-txt: var(--cd-rarity-abyssos-txt);
+
+  --cd-rarity-elmos-bg: #eb8648;
+  --cd-rarity-elmos-txt: var(--cd-rarity-abyssos-txt);
+
+  --cd-rarity-standard-bg: #eb8648;
+  --cd-rarity-standard-txt: var(--cd-rarity-abyssos-txt);
+
 
   /* ============================================================= */
   /*
@@ -771,6 +790,36 @@ p:last-child {
   background-color: var(--cd-rarity-irreplaceable-bg);
   color: var(--cd-rarity-irreplaceable-txt);
 }
+
+/* ============================================================= */
+/* facets
+/* ============================================================= */
+
+.badge-abyssos {
+  background-color: var(--cd-rarity-abysso-bg);
+  color: var(--cd-rarity-abysso-txt);
+}
+
+.badge-chronos {
+  background-color: var(--cd-rarity-chronos-bg);
+  color: var(--cd-rarity-chronos-txt);
+}
+
+.badge-stellios {
+  background-color: var(--cd-rarity-stellios-bg);
+  color: var(--cd-rarity-stellio-txt);
+}
+
+.badge-elemos {
+  background-color: var(--cd-rarity-elemos-bg);
+  color: var(--cd-rarity-elemos-txt);
+}
+
+.badge-standard {
+  background-color: var(--cd-rarity-standard-bg);
+  color: var(--cd-rarity-standard-txt);
+}
+
 
 /* ============================================================= */
 /* Xanya's edits:
