@@ -47,7 +47,7 @@ charadex.sheet = {
     rarity: ['All', 'Newfound', 'Cherished', 'Treasured', 'Irreplaceable'],
     species: ['All', 'Dog', 'Cat', 'Bunny'],
     itemTypes: ['All', 'Currency', 'Trait', 'Misc'],
-    traitTypes: ['All', 'Keys', 'Body', 'Limbs', 'Misc'],
+    traitTypes: ['All', 'Keys', 'Keyhole', 'Body', 'Limbs', 'Misc'],
     facets: ['All', 'Abyssos', 'Chronos', 'Stellios', 'Elemos', 'Standard']
 
   }
