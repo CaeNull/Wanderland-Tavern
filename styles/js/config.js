@@ -48,7 +48,7 @@ charadex.sheet = {
     species: ['All', 'Dog', 'Cat', 'Bunny'],
     itemTypes: ['All', 'Currency', 'Trait', 'Misc'],
     traitTypes: ['All', 'Keys', 'Keyhole', 'Body', 'Limbs', 'Misc'],
-    facets: ['All', 'Abyssos', 'Chronos', 'Stellios', 'Elemos', 'Standard']
+    facets: ['All', 'Abyssos', 'Chronos', 'Stellios', 'Elemos',]
 
   }
 
